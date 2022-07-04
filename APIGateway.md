@@ -3211,10 +3211,7 @@ public class Endpoint {
 		log.info("[REQ]delay api headers : {}, body : {}", requestHeader, body);
 		
 		try {
-			Random rand = new Random();
-			if(rand.nextInt()%5==1) {
-				Thread.sleep(10000);
-			}
+			Thread.sleep(10000);
 		} catch (InterruptedException e) {
 			log.error("error: ",e);
 		}

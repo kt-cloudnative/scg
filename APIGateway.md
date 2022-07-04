@@ -3079,7 +3079,7 @@ Backend API는 테스트를 위해 2개가 필요하므로 프로젝트 생성 �
            <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
             <version>1.6.6</version>
-        </dependency 
+         </dependency> 
         
 ```
 
@@ -3261,7 +3261,7 @@ public class Payload {
 
 ### 5.2.7. API테스트
 
- http://localhost:8081//swagger-ui.html
+ http://localhost:8081/swagger-ui.html
 <center><img src="/assets/image-20220627174432987.png"><p></p></center>
 
 ## 5.3. Spring Cloud Gateway 개발

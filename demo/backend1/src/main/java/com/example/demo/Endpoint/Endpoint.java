@@ -34,7 +34,7 @@ public class Endpoint {
 	public Payload pot(@RequestHeader Map<String, Object> requestHeader, @RequestBody String body) {
 		log.info("[REQ]get api headers : {}, body : {}", requestHeader, body);
 
-		return Payload.builder().code("200").message("success").service("backend1 get").data(body).build();
+		return Payload.builder().code("200").message("success").service("backend1 post").data(body).build();
 	}
 	
 	@Operation(summary = "테스트 Auth Get API", description = "테스트용 Auth GET API 입니다.")
